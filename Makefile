@@ -1,2 +1,2 @@
 all:
-	gcc -std=c11 -o atto -O3 atto.c
+	$(CC) -std=c11 -o atto -O3 atto.c
